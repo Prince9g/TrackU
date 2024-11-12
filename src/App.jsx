@@ -6,6 +6,8 @@ import CreditScoreTracker from "./components/CreditScoreTracker";
 import Dashboard from "./pages/Dashboard";
 import Expenses from "./pages/Expenses";
 import FutureExpenses from "./pages/FutureExpenses";
+import Signup from "./components/SignUp";
+import Login from "./components/Login";
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('dashboard');
@@ -36,6 +38,8 @@ const App = () => {
       </div>
       <Footer />
     </div>
+    // <Signup/>
+    // <Login/>
   );
 };
 

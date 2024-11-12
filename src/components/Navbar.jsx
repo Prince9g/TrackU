@@ -37,9 +37,13 @@ const Navbar = () => {
           </div>
           <BellIcon className="w-6 h-6" />
           <MenuIcon className="w-6 h-6 md:hidden" />
-          <div className="relative">
+          <div className="relative group">
             <div className="rounded-full bg-indigo-700 text-white flex items-center justify-center w-10 h-10 border-2 border-white">
               <span className="text-xl font-semibold">P</span>
+            </div>
+              <div className="absolute right-4 w-48 mt-2 origin-top-right bg-white text-indigo-600 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Profile Setting</a>
+              <a href="#" className="block px-4 py-2 text-red-600 hover:bg-gray-100">Logout</a>
             </div>
           </div>
         </div>
